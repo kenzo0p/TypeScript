@@ -53,4 +53,3 @@ const getHello  =(s:string):string =>{return "hello"}
 
 export {}
 
-//1.15

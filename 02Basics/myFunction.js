@@ -35,4 +35,3 @@ function handleERR(erroemsg) {
     throw new Error(erroemsg);
 }
 var getHello = function (s) { return "hello"; };
-//1.15
