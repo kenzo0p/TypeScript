@@ -22,19 +22,57 @@
 
 
 
-//type alias
+// type alias
+// type User = {
+//     name:string;
+//     email:string;
+//     isActive:boolean
+
+// }
+
+
+// type myString  =string;//we can change data types name by using type alises
+
+// function createUser(user:User):User{
+//     return {name:"" , email:"", isActive:true}
+// }
+// createUser({name:"" , email:"", isActive:true});
+
+
+
+
+
+
+//ReadOnly and optional
 type User = {
-    name:string;
-    email:string;
-    isActive:boolean
+    readonly _id: String,//we can,t manipulate this bu using readonly that means we cant change it 
+    name: String,
+    email: string,
+    isActive: boolean
+    credCardDetails?: number
+}
+
+type cardNumber = {
+    cardnumber: string,
 
 }
 
-
-type myString  =string;//we can assign any to dat types by using type
-
-function createUser(user:User):User{
-    return {name:"" , email:"", isActive:true}
+type cardDate = {
+    cardDate: string
 }
-createUser({name:"" , email:"", isActive:true});
-export {}
+
+type cardDetails = cardNumber & cardDate & {
+    CVV: number
+}
+
+let myUser: User = {
+    _id: "1234",
+    name: "h",
+    email: "h@h.com",
+    isActive: false,
+}
+
+myUser.email = "h2gmail.com"
+// myUser._id = "asdyhyvc"//error due to readonly
+
+export { }
