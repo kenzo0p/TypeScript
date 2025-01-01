@@ -19,7 +19,7 @@ console.log(person.skills[0]);
 //     skills:['js',10],
 //
 // };
-var Role;
+
 (function (Role) {
     Role[Role["ADMIN"] = 0] = "ADMIN";
     Role[Role["AUTHOR"] = 1] = "AUTHOR";

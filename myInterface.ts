@@ -6,7 +6,6 @@ interface User {
     // startTrail:() =>string
     startTrail():String,
     getCoupon(couponName:string , value:number):number,
-
 }
 interface User{
     githubToken:String

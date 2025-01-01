@@ -1,15 +1,15 @@
 // object, arrays , tupple, enum
-const person: {
-  firstname: string;
-  age: number;
-  skills: string[];
-} = {
-  firstname: "john",
-  age: 21,
-  skills: ["js", "ts", "react"],
-};
+// const person: {
+//   firstname: string;
+//   age: number;
+//   skills: string[];
+// } = {
+//   firstname: "john",
+//   age: 21,
+//   skills: ["js", "ts", "react"],
+// };
 
-console.log(person.skills[0]);
+// console.log(person.skills[0]);
 
 // tupple
 
@@ -35,6 +35,7 @@ enum Role {
     AUTHOR,
     READ_USER_ONLY,
 }
+
 const person1 = {
   firstname: "john",
   age: 21,
