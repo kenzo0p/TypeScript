@@ -5,10 +5,10 @@ console.log("hii union");
 // types aliies
 // let firstname :string = "om"
 
-const person : { firstname: string, age: number } = {
-  firstname: "om",
-  age: 22,
-};
+// const person : { firstname: string, age: number } = {
+//   firstname: "om",
+//   age: 22,
+// };
 
 // | -> pipe : union we can assign multiple types using pipes
 

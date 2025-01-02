@@ -18,7 +18,7 @@
 
 // enum
 
-// const person1: {
+// const person: {
     //     firstname: string;
     //     age: number;
     //     skills:[string,number] //fixed array of types,
@@ -42,3 +42,5 @@ const person1 = {
   skills: ["js", 10],
   role: Role.ADMIN,
 };
+
+export {}
